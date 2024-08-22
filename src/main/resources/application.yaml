@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: lection6
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lecture6
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 1OP0jqb
+  jpa:
+    hibernate:
+      ddl-auto: update
